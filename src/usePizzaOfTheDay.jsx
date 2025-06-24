@@ -12,7 +12,7 @@ export const usePizzaOfTheDay = () => {
     //useEffect is used to fetch data when the component mounts
 
     async function fetchPizzaOfTheDay() {
-      //await new Promise((resolve) => setTimeout(resolve, 3000));
+      await new Promise((resolve) => setTimeout(resolve, 3000));
       const apiUrl = import.meta.env.VITE_API_URL;
       const response = await fetch(`${apiUrl}/api/pizza-of-the-day`);
       const data = await response.json();
