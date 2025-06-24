@@ -43,7 +43,7 @@ nav {
 
 .logo {
   width: 100%;
-  height: 110px;
+  height: 150px; /* Increased height */
   background-position: left;
   background-repeat: no-repeat;
   content: url("/padre_gino.svg");
@@ -54,6 +54,7 @@ nav {
 
 nav .logo {
   width: inherit;
+  height: 145px; /* Match increased logo height */
   grid-area: logo;
 }
 
