@@ -1,6 +1,6 @@
 import { createLazyFileRoute } from "@tanstack/react-router";
 import { useMutation } from "@tanstack/react-query";
-import postContact from "../api/pastContact";
+import postContact from "../api/postContact";
 
 export const Route = createLazyFileRoute("/contact")({
   component: ContactRoute,
